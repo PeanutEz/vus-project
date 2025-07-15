@@ -25,7 +25,7 @@ export default function Header() {
   const isSmallMobile = useMediaQuery({ query: queries.isSmallMobile });
 
   const navLinks = [
-    { id: 1, name: "HOME", path: "/" },
+    { id: 1, name: "HOME", path: "/vus-project/" },
     {
       id: 2,
       name: "ABOUT US",
@@ -138,7 +138,7 @@ export default function Header() {
         </animated.div>
       ) : null}
       {/* VUS-logo */}
-      <Link to="/">
+      <Link to="/vus-project/">
         <img
           style={{
             width: "135px",

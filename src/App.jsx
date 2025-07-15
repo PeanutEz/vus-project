@@ -11,7 +11,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/vus-project" element={<Home />} />
+        <Route path="/vus-project/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/whyus" element={<WhyUs />} />
         <Route path="/teachatVUS" element={<TeachAtVUS />} />
